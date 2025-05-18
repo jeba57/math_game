@@ -1,0 +1,82 @@
+/* General Layout */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #4a90e2, #7b4397);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Game Info */
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Box for Numbers */
+#numbers {
+    font-size: 22px;
+    padding: 15px;
+    background: #ffffff20;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Input Styling */
+input {
+    padding: 12px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
+
+/* Buttons */
+button {
+    padding: 12px 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Primary Action Buttons */
+#addBtn, #subBtn {
+    background: #ffcc00;
+    color: #333;
+}
+
+#addBtn:hover, #subBtn:hover {
+    background: #e6b800;
+}
+
+/* Restart Button */
+#restartBtn {
+    background: #e91e63;
+    color: white;
+}
+
+#restartBtn:hover {
+    background: #c2185b;
+}
+
+/* Result & Total Score */
+#result, #total {
+    font-size: 20px;
+    padding: 10px;
+    background: #ffffff30;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 15px;
+}
